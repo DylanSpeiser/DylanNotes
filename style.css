@@ -16,15 +16,10 @@ a {
 /* HEADER */
 
 header {
-    height: 260px;
+    height: 230px;
     padding-top: 20px;
     background-color: cornflowerblue;
 }
-
-/* .Navi {
-    padding-left: 70px;
-}
-*/
 
 ul {
     padding: 0;
@@ -103,7 +98,7 @@ li {
 
 #main p {
     background-color: #66a0ff;
-    margin: 0;
+    margin: 0px;
     padding: 50px;
     color:white;
     text-align: center;
@@ -113,35 +108,30 @@ li {
 .box {
     position: relative;
     float: left;
-    margin: 15px 0;
+    margin: 0px 0;
     padding-bottom: 45px;
 }
 
 .box img {
     position: relative;
     z-index: 1;
-    margin-left: 75px;
+    margin-top: 150px;
+    margin-left: 50px;
 }
 
 .box p {
     position: absolute;
     z-index: 2;
     width: 100%;
-    left: 40px;
-    top: 12px;
+    left: 26px;
+    top: 162px;
     text-align: center;
-    font-size: 30px;
+    font-size: 15px;
     color:white;
 }
 
 #p1 {
-    position: absolute;
-    z-index: 2;
-    width: 100%;
-    left: 45px;
-    top: 0px;
-    text-align: center;
-    font-size: 30px;
+    margin-top: 5px;
     color:black;
 }
 
