@@ -21,9 +21,10 @@ header {
     background-color: cornflowerblue;
 }
 
-.Navi {
+/* .Navi {
     padding-left: 70px;
 }
+*/
 
 ul {
     padding: 0;
@@ -57,7 +58,6 @@ li {
 }
 
 #logo {
-    padding-left: 75px;
     width: 200px;
     float: left;
     text-align: center;
