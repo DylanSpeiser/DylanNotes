@@ -27,8 +27,9 @@ ul {
 
 li {
     display: inline;
-    padding: 30px;
-    font-size: 14px;
+    margin-left: 10px;
+    padding: 20px;
+    font-size: 26px;
 }
 
 .left {
@@ -135,13 +136,11 @@ li {
     color:black;
 }
 
-nav {
-    font-family: Calibri, Helvetica, Arial;
-    font-size: 8px;
-    text-align: center;
-}
-
 footer li a {
+    font-family: Calibri, Helvetica, Arial;
+    font-size: 28px;
+    margin-left: 350px;
+    text-align: center;
     color: #373535;
 }
 
@@ -150,7 +149,7 @@ footer li a {
 button {
     font-family: impact, calibri, helvetica, arial;
     text-align: center;
-    font-size: 100px;
+    font-size: 50px;
     color: white;
     overflow: hidden;
     background-color: cornflowerblue;
@@ -161,6 +160,12 @@ button {
     margin: 15px;
 }
 
+button:hover {
+    background-color: aqua;
+    background-color: aqua;
+    transition-duration: 0.7s;
+}
+
 .ButtonLeft {
    float:left;
 }
@@ -169,50 +174,88 @@ button {
     float:right;
 }
 
+/*  Gemara  */
+
+#Gem1 {
+    margin: 10px;
+    padding: 40px 70px;
+}
+
+#Gem2 {
+    margin: 10px;
+    padding: 40px 62px;
+}
+
+#Gem3 {
+    margin: 10px;
+    padding: 40px 62px;
+}
+
+#Gem4 {
+    margin: 10px;
+    padding: 40px 67px;
+}
+
+#Gem5 {
+    margin: 10px;
+    padding: 40px 60px;
+}
+
+#Gem6 {
+    margin: 10px;
+    padding: 40px 68px;
+}
+
+#Gem7 {
+    margin: 10px;
+    padding: 40px 70px;
+}
+
+
 /*  Navi  */
 
 #Navi1 {
-    padding-right: 255px;
+    padding: 40px 135px;
 }
 
 #Navi2 {
-    padding-right: 175px;
+    padding: 40px 115px;
 }
 
 #Navi3 {
-    padding-right: 415px;
+    padding: 40px 175px;
 }
 
 #Navi4 {
-    padding-right: 145px;
+    padding: 40px 108px;
 }
 
 #Navi5 {
-    padding-right: 11px;
+    padding: 40px 74px;
 }
 
 #Navi6 {
-    padding-right: 269px;
+    padding: 40px 138px;
 }
 
 #Navi8 {
-    padding-right: 130px;
+    padding-right: 176px;
 }
 
 #Navi9 {
-    padding-right: 280px;
+    padding-right: 247px;
 }
 
 #Navi10 {
-    padding-right: 354px;
+    padding-right: 283px;
 }
 
 #Navi11 {
-    padding-right: 137px;
+    padding-right: 175px;
 }
 
 #Navi13 {
-    padding-right: 528px;
+    padding-right: 370px;
 }
 
 #Navi14 {
@@ -222,27 +265,27 @@ button {
 /*  Science  */
 
 #Science1 {
-    padding-right: 470px;
+    padding: 40px 190px;
 }
 
 #Science2 {
-    padding-right: 183px;
+    padding: 40px 118px;
 }
 
 #Science3 {
-    padding-right: 755px;
+    padding: 40px 262px;
 }
 
 #Science4 {
-    padding-right: 685px;
+    padding: 40px 243px;
 }
 
 #Science5 {
-    padding-right: 575px;
+    padding: 40px 217px;
 }
 
 #Science6 {
-    padding-right: 505px;
+    padding: 40px 199px;
 }
 
 /*  Quizlets  */
