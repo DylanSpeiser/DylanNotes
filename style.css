@@ -4,7 +4,7 @@ html {
 
 body {
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
     font-family: impact, calibri, helvetica, arial;
 }
 
@@ -23,6 +23,7 @@ header {
 
 ul {
     padding: 0;
+    text-align: center
 }
 
 li {
@@ -33,7 +34,7 @@ li {
 }
 
 .left {
-    width: 200px;
+    width: 30%;
     float:left
 }
 
@@ -43,8 +44,8 @@ li {
 }
 
 .right {
-    width: 200px;
-    float:right
+    width: 30%;
+    float:left;
 }
 
 .right ul {
@@ -54,8 +55,8 @@ li {
 }
 
 #logo {
-    margin-left: 30px;
-    width: 23%;
+    margin-left: 5%;
+    width: 30%;
     float: left;
     text-align: center;
     font-size: 36px;
@@ -118,7 +119,7 @@ li {
     position: relative;
     z-index: 1;
     margin-top: 150px;
-    margin-left: 50px;
+    padding-right: 20%
 }
 
 .box p {
