@@ -33,7 +33,7 @@ li {
 }
 
 .left {
-    width: 45%;
+    width: 300px;
     float:left
 }
 
@@ -43,7 +43,7 @@ li {
 }
 
 .right {
-    width:45%;
+    width: 300px;
     float:right
 }
 
