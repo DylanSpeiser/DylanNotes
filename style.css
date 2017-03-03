@@ -30,7 +30,7 @@ li {
     display: inline;
     margin-left: 10px;
     padding: 20px;
-    font-size: 250%;
+    font-size: 180%;
 }
 
 .left {
@@ -44,9 +44,9 @@ li {
 }
 
 .right {
-    margin-left: 1%;
-    width: 30%;
-    float:left;
+    margin-left: 0%;
+    width: 40%;
+    float:right;
 }
 
 .right ul {
@@ -56,8 +56,8 @@ li {
 }
 
 #logo {
-    margin-left: 5%;
-    width: 30%;
+    margin-left: 10%;
+    width: 20%;
     float: left;
     text-align: center;
     font-size: 36px;
@@ -121,7 +121,7 @@ li {
     z-index: 1;
     margin-top: 20px;
     margin-left: 25px;
-    left: 150%;
+    left: 50%;
 }
 
 .box p {
@@ -129,7 +129,7 @@ li {
     z-index: 2;
     width: 100%;
     top: 32px;
-    left: 155%;
+    left: 55%;
     text-align: center;
     font-size: 120%;
     color:white;
@@ -178,37 +178,37 @@ button:hover {
 
 #Gem1 {
     margin: 10px;
-    padding: 7%;
+    padding: 4%;
 }
 
 #Gem2 {
     margin: 10px;
-    padding: 7%;
+    padding: 4%;
 }
 
 #Gem3 {
     margin: 10px;
-    padding: 7%;
+    padding: 4%;
 }
 
 #Gem4 {
     margin: 10px;
-    padding: 7%;
+    padding: 4%;
 }
 
 #Gem5 {
     margin: 10px;
-    padding: 7%;
+    padding: 4%;
 }
 
 #Gem6 {
     margin: 10px;
-    padding: 7%;
+    padding: 4%;
 }
 
 #Gem7 {
     margin: 10px;
-    padding: 7%;
+    padding: 4%;
 }
 
 
@@ -216,100 +216,112 @@ button:hover {
 
 #Navi1 {
     padding: 5%;
+    font-size: 197%;
 }
 
 #Navi2 {
     padding: 5% 4%;
+    font-size: 198%;
 }
 
 #Navi3 {
     padding: 5% 7.5%;
+    font-size: 197%;
 }
 
 #Navi4 {
     padding: 5% 3.6%;
+    font-size: 198%;
 }
 
 #Navi5 {
     padding: 5% 1.2%;
+    font-size: 197%;
 }
 
 #Navi6 {
     padding: 5% 5.5%;
+    font-size: 198%;
 }
 
 #Navi8 {
     padding: 5% 3%;
+    font-size: 197%;
 }
 
 #Navi9 {
     padding: 5% 5.67%;
+    font-size: 198%;
 }
 
 #Navi10 {
     padding: 5% 6.5%;
+    font-size: 197%;
 }
 
 #Navi11 {
     padding: 5% 3.4%;
+    font-size: 197%;
 }
 
 #Navi13 {
     padding: 5% 9.2%;
+    font-size: 197%;
 }
 
 #Navi14 {
     padding: 5% 4.5%;
+    font-size: 197%;
 }
 
 #Navi15 {
-    font-size: 270%;
-    padding: 5% 1.5%;
+    font-size: 170%;
+    padding: 5% 2.2%;
 }
 
 /*  Science  */
 
 #Science1 {
-    padding: 5% 9%;
+    padding: 3% 25%;
 }
 
 #Science2 {
-    padding: 5% 4.2%;
+    padding: 3% 18.3%;
 }
 
 #Science3 {
-    padding: 5% 13.5%;
+    padding: 3% 31.8%;
 }
 
 #Science4 {
-    padding: 5% 12%;
+    padding: 3% 30.1%;
 }
 
 #Science5 {
-    padding: 5% 10.7%;
+    padding: 3% 27.5%;
 }
 
 #Science6 {
-    padding: 5% 9.2%;
+    padding: 3% 25.9%;
 }
 
 /*  Quizlets  */
 
 #Quiz1 {
     font-size: 500%;
-    padding: 5% 41%;
+    padding: 5% 26%;
 }
 
 #Quiz2 {
-    margin-left: 70px;
-    font-size: 215%;
-    padding: 3% 10%;
+    margin-left: 25px;
+    font-size: 195%;
+    padding: 3% 7%;
 }
 
 #Quiz3 {
     margin: 0px;
-    font-size: 205%;
-    padding: 3% 10%;
+    font-size: 185%;
+    padding: 3% 5%;
     margin-bottom: 45px;
 }
 
