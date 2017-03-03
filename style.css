@@ -4,7 +4,7 @@ html {
 
 body {
     margin: 0 auto;
-    width: 90%;
+    width: 75%;
     font-family: impact, calibri, helvetica, arial;
 }
 
@@ -33,7 +33,7 @@ li {
 }
 
 .left {
-    width:350px;
+    width:33%;
     float:left
 }
 
@@ -43,7 +43,7 @@ li {
 }
 
 .right {
-    width:350px;
+    width:33%;
     float:right
 }
 
