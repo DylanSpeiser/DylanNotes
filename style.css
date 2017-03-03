@@ -149,7 +149,7 @@ footer li a {
 button {
     font-family: impact, calibri, helvetica, arial;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     color: white;
     overflow: hidden;
     background-color: cornflowerblue;
@@ -260,6 +260,10 @@ button:hover {
 
 #Navi14 {
     padding-right: 209px;
+}
+
+#Navi15{
+    padding: 40px 100px;
 }
 
 /*  Science  */
