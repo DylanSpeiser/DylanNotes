@@ -100,7 +100,6 @@ li {
 
 #main p {
     background-color: #66a0ff;
-    margin-left: 50px;
     padding: 50px;
     color:white;
     text-align: center;
@@ -109,6 +108,7 @@ li {
 
 .box {
     position: relative;
+    margin-left: 50px;
     float: left;
     margin: 0px 0;
     padding-bottom: 45px;
