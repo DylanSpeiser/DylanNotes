@@ -4,7 +4,7 @@ html {
 
 body {
     margin: 0 auto;
-    width: 75%;
+    width: 70%;
     font-family: impact, calibri, helvetica, arial;
 }
 
@@ -33,7 +33,7 @@ li {
 }
 
 .left {
-    width:25%;
+    width:23%;
     float:left
 }
 
@@ -43,7 +43,7 @@ li {
 }
 
 .right {
-    width:25%;
+    width:23%;
     float:right
 }
 
@@ -54,7 +54,7 @@ li {
 }
 
 #logo {
-    width: 25%;
+    width: 23%;
     float: left;
     text-align: center;
     font-size: 36px;
