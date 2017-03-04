@@ -5,13 +5,7 @@ html {
 body {
     margin: 0 auto;
     width: 80%;
-    font-family: Impact;
-    src: url('Impact.ttf');
-}
-
-@font-face {
-    font-family: Impact;
-    src('Impact.ttf');
+    font-family: impact, calibri, helvetica, arial;
 }
 
 a {
