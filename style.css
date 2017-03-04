@@ -30,7 +30,7 @@ li {
     display: inline;
     margin: 0px;
     padding: 20px;
-    font-size: 100%;
+    font-size: 160%;
 }
 
 .left {
@@ -180,7 +180,18 @@ footer a {
     font-size: 10px;
 }
 
-/*    Buttons!    */
+/* Class Name and Track */
+
+.Class {
+    color: #484848;
+    font-family: Calibri, Helvetica, Arial;
+    font-size: 25px;
+    margin: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*    Buttons!    */    
 
 button {
     font-family: impact, calibri, helvetica, arial;
@@ -202,136 +213,57 @@ button:hover {
     transition-duration: 0.7s;
 }
 
+.OnePerLine {
+    width: 96%;
+}
+
+.TwoPerLine {
+    width: 46%;
+}
+
+.FourPerLine {
+    padding: 4% 7%;
+    width: 23%;
+}
+
 /*  Gemara  */
-
-#Gem1 {
-    margin: 5px;
-    padding: 7%;
-    width: 23%
-}
-
-#Gem2 {
-    margin: 5px;
-    padding: 7%;
-    width: 23%
-}
-
-#Gem3 {
-    margin: 5px;
-    padding: 7%;
-    width: 23%
-}
-
-#Gem4 {
-    margin: 5px;
-    padding: 7%;
-    width: 23%
-}
-
-#Gem5 {
-    margin: 5px;
-    padding: 7%;
-    width: 23%
-}
-
-#Gem6 {
-    margin: 5px;
-    padding: 7%;
-    width: 23%
-}
-
-#Gem7 {
-    margin: 5px;
-    padding: 7%;
-    width: 23%
-}
-
 
 /*  Navi  */
 
-#Navi1 {
-    width:96%;
-}
-#Navi2 {
-    width:96%;
-}
-#Navi3 {
-    width:96%;
-}
-#Navi4 {
-    width:96%;
-}
-#Navi5 {
-    width:96%;
-}
-#Navi6 {
-    width:96%;
-}
-#Navi8 {
-    width:96%;
-}
-#Navi9 {
-    width:96%;
-}
-#Navi10 {
-    width:96%;
-}
-#Navi11 {
-    width:96%;
-}
-#Navi13 {
-    width:96%;
-}
-#Navi14 {
-    width:96%;
-}
-#Navi15 {
-    width:96%
-}
-#Navi16 {
-    width:96%;
-}
-
 /*  Science  */
-
-#Science1 {
-    width: 96%;
-}
-#Science2 {
-    width: 96%;
-}
-#Science3 {
-    width: 96%;
-}
-#Science4 {
-    width: 96%;
-}
-#Science5 {
-    width: 96%;
-}
-#Science6 {
-    width: 96%;
-}
-#Science7 {
-    width: 96%;
-}
-
 
 /*  Quizlets  */
 
 #Quiz1 {
     font-size: 500%;
-    width: 96%;
 }
 
 #Quiz2 {
     font-size: 215%;
-    width: 46%
 }
 
 #Quiz3 {
     font-size: 205%;
-    width: 46%
+}
+
+/*  7th Grade */
+
+.SethMid {
+    
+}
+
+/* 7th Grade History */
+
+/* 7th Grade Science */
+
+/* 7th Grade Gemara */
+
+/* 7th Grade Chumash*/
+
+/* Next Test*/
+
+#NextTest1 {
+    margin-top: 70px;
 }
 
 /*  Disclaimer  */
