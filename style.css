@@ -5,8 +5,13 @@ html {
 body {
     margin: 0 auto;
     width: 80%;
-    font-family: impact;
-    src: url(Impact.ttf);
+    font-family: Impact;
+    src: url('Impact.ttf');
+}
+
+@font-face {
+    font-family: Impact;
+    src('Impact.ttf');
 }
 
 a {
