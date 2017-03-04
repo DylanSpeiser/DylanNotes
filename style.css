@@ -23,14 +23,14 @@ header {
 
 ul {
     padding: 0;
-    text-align: center
+    text-align: center;
 }
 
 li {
     display: inline;
-    margin-left: 10px;
+    margin: 0px;
     padding: 20px;
-    font-size: 190%;
+    font-size: 160%;
 }
 
 .left {
@@ -46,7 +46,7 @@ li {
 .right {
     margin-left: 1%;
     width: 30%;
-    float:left;
+    float:right;
 }
 
 .right ul {
@@ -56,8 +56,8 @@ li {
 }
 
 #logo {
-    margin-left: 5%;
-    width: 30%;
+    margin-left: 0%;
+    width: 35%;
     float: left;
     text-align: center;
     font-size: 36px;
@@ -286,7 +286,6 @@ button:hover {
     width:96%;
 }
 #Navi15 {
-    width:96%;
 }
 #Navi16 {
     width:96%;
@@ -331,7 +330,7 @@ button:hover {
 
 #Quiz3 {
     font-size: 205%;
-    width: 47%
+    width: 46%
 }
 
 /*  Disclaimer  */
