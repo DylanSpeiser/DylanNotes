@@ -163,6 +163,11 @@ li {
     color:black;
 }
 
+#p2 {
+    top: 235px;
+    color: #373535;
+}
+
 footer {
     margin-top: 300px;
     font-family: Calibri, Helvetica, Arial;
