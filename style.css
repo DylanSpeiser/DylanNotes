@@ -30,7 +30,7 @@ li {
     display: inline;
     margin-left: 10px;
     padding: 20px;
-    font-size: 250%;
+    font-size: 190%;
 }
 
 .left {
@@ -286,6 +286,7 @@ button:hover {
     width:96%;
 }
 #Navi15 {
+    width:96%;
 }
 #Navi16 {
     width:96%;
@@ -330,7 +331,7 @@ button:hover {
 
 #Quiz3 {
     font-size: 205%;
-    width: 46%
+    width: 47%
 }
 
 /*  Disclaimer  */
