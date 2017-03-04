@@ -34,7 +34,7 @@ li {
 }
 
 .left {
-    width: 30%;
+    width: 32%;
     float:left
 }
 
@@ -45,7 +45,7 @@ li {
 
 .right {
     margin-left: 1%;
-    width: 30%;
+    width: 32%;
     float:right;
 }
 
@@ -56,8 +56,8 @@ li {
 }
 
 #logo {
-    margin-left: 0%;
-    width: 35%;
+    margin-left: 1%;
+    width: 32%;
     float: left;
     text-align: center;
     font-size: 36px;
@@ -286,6 +286,7 @@ button:hover {
     width:96%;
 }
 #Navi15 {
+    width:96%
 }
 #Navi16 {
     width:96%;
