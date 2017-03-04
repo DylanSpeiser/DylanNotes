@@ -110,14 +110,34 @@ li {
 
 .box {
     width: 30%;
-    align-items: center;
-    align-content: center;
     position: relative;
     padding-left: 3.333333%;
     padding-top: 50px;
     float: left;
     margin: 0px 0;
     padding-bottom: 45px;
+}
+
+#QuizletBox p {
+    padding-left: 24%;
+}
+
+#QuizletBox img {
+    float:right
+}
+
+#TestsBox {
+    width: 26%
+}
+
+#Box3 {
+    float:left;
+    padding-left: 0%;
+    padding-right: 3.33333%
+}
+
+#Box3 img {
+    padding-left: 0%;
 }
 
 .box img {
@@ -185,146 +205,138 @@ button:hover {
 /*  Gemara  */
 
 #Gem1 {
-    margin: 10px;
+    margin: 5px;
     padding: 7%;
+    width: 23%
 }
 
 #Gem2 {
-    margin: 10px;
+    margin: 5px;
     padding: 7%;
+    width: 23%
 }
 
 #Gem3 {
-    margin: 10px;
+    margin: 5px;
     padding: 7%;
+    width: 23%
 }
 
 #Gem4 {
-    margin: 10px;
+    margin: 5px;
     padding: 7%;
+    width: 23%
 }
 
 #Gem5 {
-    margin: 10px;
+    margin: 5px;
     padding: 7%;
+    width: 23%
 }
 
 #Gem6 {
-    margin: 10px;
+    margin: 5px;
     padding: 7%;
+    width: 23%
 }
 
 #Gem7 {
-    margin: 10px;
+    margin: 5px;
     padding: 7%;
+    width: 23%
 }
 
 
 /*  Navi  */
 
 #Navi1 {
-    padding: 5%;
+    width:96%;
 }
-
 #Navi2 {
-    padding: 5% 4%;
+    width:96%;
 }
-
 #Navi3 {
-    padding: 5% 7.5%;
+    width:96%;
 }
-
 #Navi4 {
-    padding: 5% 3.6%;
+    width:96%;
 }
-
 #Navi5 {
-    padding: 5% 1.2%;
+    width:96%;
 }
-
 #Navi6 {
-    padding: 5% 5.5%;
+    width:96%;
 }
-
 #Navi8 {
-    padding: 5% 3%;
+    width:96%;
 }
-
 #Navi9 {
-    padding: 5% 5.67%;
+    width:96%;
 }
-
 #Navi10 {
-    padding: 5% 6.5%;
+    width:96%;
 }
-
 #Navi11 {
-    padding: 5% 3.4%;
+    width:96%;
 }
-
 #Navi13 {
-    padding: 5% 9.2%;
+    width:96%;
 }
-
 #Navi14 {
-    padding: 5% 4.5%;
+    width:96%;
 }
-
 #Navi15 {
-    font-size: 270%;
-    padding: 5% 1.5%;
+}
+#Navi16 {
+    width:96%;
 }
 
 /*  Science  */
 
 #Science1 {
-    padding: 5% 9%;
+    width: 96%;
 }
-
 #Science2 {
-    padding: 5% 4.2%;
+    width: 96%;
 }
-
 #Science3 {
-    padding: 5% 13.5%;
+    width: 96%;
 }
-
 #Science4 {
-    padding: 5% 12%;
+    width: 96%;
 }
-
 #Science5 {
-    padding: 5% 10.7%;
+    width: 96%;
+}
+#Science6 {
+    width: 96%;
+}
+#Science7 {
+    width: 96%;
 }
 
-#Science6 {
-    padding: 5% 9.2%;
-}
 
 /*  Quizlets  */
 
 #Quiz1 {
     font-size: 500%;
-    padding: 5% 41%;
+    width: 96%;
 }
 
 #Quiz2 {
-    margin-left: 70px;
     font-size: 215%;
-    padding: 3% 10%;
+    width: 46%
 }
 
 #Quiz3 {
-    margin: 0px;
     font-size: 205%;
-    padding: 3% 10%;
-    margin-bottom: 45px;
+    width: 46%
 }
 
 /*  Disclaimer  */
 
 #DiscMid {
-    color:white;
-    font-size: 100px;
+    color: darkblue;
+    font-size: 50px;
     text-align: center;
 }
