@@ -1,0 +1,270 @@
+html {
+    background: rgb(58, 58, 58);
+background: -moz-linear-gradient(top, rgba(155,155,155,1) 0%, rgba(58,58,58,1) 100%);
+background: -webkit-linear-gradient(top, rgba(155,155,155,1) 0%,rgba(58,58,58,1) 100%);
+background: linear-gradient(to bottom, rgba(155,155,155,1) 0%,rgba(58,58,58,1) 100%);
+background-repeat: no-repeat;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    font-family: calibri, helvetica, arial;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* HEADER */
+
+header {
+    height: 60px;
+    width: 100%;
+    padding-top: 20px;
+    background-color: cornflowerblue;
+}
+
+ul {
+    padding: 0;
+    text-align: center;
+    width: 74%;
+}
+
+li {
+    display: inline;
+    margin: 0px;
+    padding: 0 5%;
+    font-size: 160%;
+    z-index: 2;
+    width: 18%;
+}
+
+#title:hover{
+  color: black;
+  transition: .3s;
+}
+
+.headerLi:hover {
+  color: black;
+  transition: .3s;
+}
+
+.right {
+    width: 74.5%;
+    float:right;
+}
+
+.right ul {
+    margin: 0px;
+    float:right;
+    padding-right: 60px;
+    padding-top: .5%;
+}
+
+#logo {
+    margin-left: 2%;
+    float: left;
+    text-align: center;
+    font-size: 36px;
+    color:white;
+    width: 20%;
+}
+
+#logo p {
+  z-index: 2;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* MAIN */
+
+#main {
+    padding-top: 0px;
+    height: 250px;
+    width: 80%;
+    padding-left: 10%;
+}
+
+.cf {
+    /**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+}
+
+#main p {
+    background-color: #66a0ff;
+    padding: 50px;
+    color:white;
+    text-align: center;
+    font-size: 500%;
+}
+
+.box {
+    width: 30%;
+    position: relative;
+    padding-left: 3.333333%;
+    padding-top: 50px;
+    float: left;
+    margin: 0px 0;
+    text-align: center;
+    padding-bottom: 45px;
+    transition: 0.3s;
+}
+
+.boxImg {
+  box-shadow: 10px 10px 20px #888888;
+}
+
+.box:hover {
+  transform: scale(1.2);
+}
+
+#images {
+  width: 80%;
+  display: block;
+  margin: 0px auto;
+}
+
+#images p {
+  color: black;
+  z-index: 2;
+}
+
+footer {
+    margin-top: 300px;
+    font-family: Calibri, Helvetica, Arial;
+    font-size: 28px;
+    margin-left: 0px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer a {
+    margin-top: 75px;
+    color: #d6d6d6;
+}
+
+footer p {
+  margin-top: 75px;
+}
+
+#version {
+    color: #a0a0a0;
+    font-size: 10px;
+    height: 100px;
+}
+
+/* Class Name and Track */
+
+.Class {
+    color: #484848;
+    font-family: Calibri, Helvetica, Arial;
+    font-size: 25px;
+    margin: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*    Buttons!    */
+
+button {
+    font-family: calibri, helvetica, arial;
+    text-align: center;
+    font-size: 300%;
+    color: white;
+    overflow: hidden;
+    background-color: cornflowerblue;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 31px;
+    padding-right: 25px;
+    margin: 15px;
+}
+
+button:hover {
+    background-color: aqua;
+    background-color: aqua;
+    transition-duration: 0.7s;
+}
+
+.OnePerLine {
+    width: 96%;
+}
+
+.TwoPerLine {
+    width: 46%;
+}
+
+.FourPerLine {
+    padding: 4% 7%;
+    width: 23%;
+}
+
+/*  Gemara  */
+
+/*  Navi  */
+
+/*  Science  */
+
+/*  Quizlets  */
+
+#Quiz1 {
+    font-size: 500%;
+}
+
+#Quiz2 {
+    font-size: 215%;
+}
+
+#Quiz3 {
+    font-size: 205%;
+}
+
+/*  7th Grade */
+
+/* 7th Grade History */
+
+/* 7th Grade Science */
+
+/* 7th Grade Gemara */
+
+/* 7th Grade Chumash*/
+
+/* Next Test*/
+
+#NextTest1 {
+    margin-top: 70px;
+}
+
+/*  Disclaimer  */
+
+#DiscMid {
+    color: darkblue;
+    font-size: 50px;
+    text-align: center;
+}
