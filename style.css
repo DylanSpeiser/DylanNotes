@@ -1,11 +1,15 @@
 html {
-    background-image: url(images/bg.jpg);
+    background: rgb(58, 58, 58);
+background: -moz-linear-gradient(top, rgba(155,155,155,1) 0%, rgba(58,58,58,1) 100%);
+background: -webkit-linear-gradient(top, rgba(155,155,155,1) 0%,rgba(58,58,58,1) 100%);
+background: linear-gradient(to bottom, rgba(155,155,155,1) 0%,rgba(58,58,58,1) 100%);
+background-repeat: no-repeat;
 }
 
 body {
     margin: 0 auto;
-    width: 80%;
-    font-family: impact, calibri, helvetica, arial;
+    width: 100%;
+    font-family: calibri, helvetica, arial;
 }
 
 a {
@@ -16,7 +20,8 @@ a {
 /* HEADER */
 
 header {
-    height: 230px;
+    height: 60px;
+    width: 100%;
     padding-top: 20px;
     background-color: cornflowerblue;
 }
@@ -24,44 +29,53 @@ header {
 ul {
     padding: 0;
     text-align: center;
+    width: 74%;
 }
 
 li {
     display: inline;
     margin: 0px;
-    padding: 20px;
+    padding: 0 5%;
     font-size: 160%;
+    z-index: 2;
+    width: 18%;
 }
 
-.left {
-    width: 32%;
-    float:left
+#title:hover{
+  color: black;
+  transition: .3s;
 }
 
-.left ul {
-    padding-left: 60px;
-    padding-top: 90px;
+.headerLi:hover {
+  color: black;
+  transition: .3s;
 }
 
 .right {
-    margin-left: 1%;
-    width: 32%;
+    width: 74.5%;
     float:right;
 }
 
 .right ul {
+    margin: 0px;
     float:right;
     padding-right: 60px;
-    padding-top: 90px;
+    padding-top: .5%;
 }
 
 #logo {
     margin-left: 2%;
-    width: 32%;
     float: left;
     text-align: center;
     font-size: 36px;
     color:white;
+    width: 20%;
+}
+
+#logo p {
+  z-index: 2;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /* MAIN */
@@ -69,6 +83,8 @@ li {
 #main {
     padding-top: 0px;
     height: 250px;
+    width: 80%;
+    padding-left: 10%;
 }
 
 .cf {
@@ -105,7 +121,7 @@ li {
     padding: 50px;
     color:white;
     text-align: center;
-    font-size: 500%; 
+    font-size: 500%;
 }
 
 .box {
@@ -115,57 +131,28 @@ li {
     padding-top: 50px;
     float: left;
     margin: 0px 0;
-    padding-bottom: 45px;
-}
-
-#QuizletBox p {
-    padding-left: 26%;
-}
-
-#QuizletBox img {
-    float:right
-}
-
-#TestsBox {
-    width: 26%
-}
-
-#Box3 {
-    float:left;
-    padding-left: 0%;
-    padding-right: 3.33333%
-}
-
-#Box3 img {
-    padding-left: 0%;
-}
-
-.box img {
-    position: relative;
-    align-self: center;
-    z-index: 1;
-    margin-top: 20px;
-}
-
-.box p {
-    position: absolute;
-    z-index: 2;
-    width: 235px;
-    top: 32px;
-    padding-top: 50px;
     text-align: center;
-    font-size: 120%;
-    color:white;
+    padding-bottom: 45px;
+    transition: 0.3s;
 }
 
-#p1 {
-    margin-top: 5px;
-    color:black;
+.boxImg {
+  box-shadow: 10px 10px 20px #888888;
 }
 
-#p2 {
-    top: 205px;
-    color: white;
+.box:hover {
+  transform: scale(1.2);
+}
+
+#images {
+  width: 80%;
+  display: block;
+  margin: 0px auto;
+}
+
+#images p {
+  color: black;
+  z-index: 2;
 }
 
 footer {
@@ -174,15 +161,22 @@ footer {
     font-size: 28px;
     margin-left: 0px;
     text-align: center;
+    padding-top: 10px;
 }
 
 footer a {
-    color: #373535;
+    margin-top: 75px;
+    color: #d6d6d6;
+}
+
+footer p {
+  margin-top: 75px;
 }
 
 #version {
-    color: #373535;
+    color: #a0a0a0;
     font-size: 10px;
+    height: 100px;
 }
 
 /* Class Name and Track */
@@ -196,10 +190,10 @@ footer a {
     text-align: center;
 }
 
-/*    Buttons!    */    
+/*    Buttons!    */
 
 button {
-    font-family: impact, calibri, helvetica, arial;
+    font-family: calibri, helvetica, arial;
     text-align: center;
     font-size: 300%;
     color: white;
