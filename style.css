@@ -35,6 +35,16 @@ ul {
     width: 74%;
 }
 
+.mid {
+    min-height: 500px;
+}
+
+#Frisch {
+    margin: 0px;
+    padding: 0px;
+    align-self: auto;
+}
+
 li {
     display: inline;
     margin: 0px;
@@ -238,7 +248,7 @@ button:hover {
 
 .FourPerLine {
     padding: 4% 7%;
-    width: 23%;
+    width: 20%;
 }
 
 /*  Gemara  */
@@ -248,6 +258,13 @@ button:hover {
 /*  Science  */
 
 /*  Quizlets  */
+
+#UpcomingText {
+}
+
+#UpcomingMid {
+    min-height: 400px;
+}
 
 #Quiz1 {
     font-size: 500%;
