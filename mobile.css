@@ -189,14 +189,15 @@ li {
 
 #images p {
   margin-top: 5px;
-  font-size: 170%;
+  font-size: 30px;
+  font-weight: 600;
   font-style: oblique;
   color: #b4b4b4;
   z-index: 2;
 }
 
 footer {
-    margin-top: 330px;
+    margin-top: 830px;
     font-family: Calibri, Helvetica, Arial;
     font-size: 28px;
     margin-left: 0px;
@@ -216,7 +217,6 @@ footer p {
 #version {
     color: #a0a0a0;
     font-size: 10px;
-    height: 300px;
 }
 
 /* Class Name and Track */
