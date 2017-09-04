@@ -33,10 +33,32 @@
                     <li><a class="headerLi" href="Navi.html">Navi</a></li>
                 </ul>
                 
-                <a class="mobile"><img id= "menuImg" src="images/Menu.png"></a>
+                <div class="mobile">
+                    
+                    <div id="myNav" class="overlay">
+
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                    <div class="overlay-content">
+                        <a href="#">Science</a>
+                        <a href="#">Quizlets</a>
+                        <a href="#">Gemara</a>
+                        <a href="#">Navi</a>
+                    </div>
+                </div>
+                    
+                    <li><a onclick="openNav()"><img id= "menuImg" src="images/Menu.png"></a></li>
+                </div>
                 
-                <!--<ul><li><a>Pages will be added when classes start</a></li></ul>-->
-                
+                <script>
+                    function openNav() {
+                        document.getElementById("myNav").style.width = "100%";
+                    }
+
+                    function closeNav() {
+                        document.getElementById("myNav").style.width = "0%";
+                    }
+                </script>
                 
             </div>
 
@@ -75,8 +97,8 @@
 
         <footer>
             <a href="Disclaimer.html"><p>Disclaimer</p></a>
-            <p id="version" class="desktop">Dylan Notes Version 3.8.0</p>
-            <p id="version" class="mobile">Mobile Version 3.8.0</p>
+            <p id="version" class="desktop">Dylan Notes Version 3.8.5</p>
+            <p id="version" class="mobile">Mobile Version 3.8.5</p>
         </footer>
     </body>
 </html>
