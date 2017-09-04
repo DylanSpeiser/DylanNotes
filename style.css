@@ -216,6 +216,10 @@ footer p {
     height: 100px;
 }
 
+.mobile {
+    display: none;
+}
+
 /* Class Name and Track */
 
 .Class {
