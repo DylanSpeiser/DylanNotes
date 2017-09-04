@@ -311,7 +311,8 @@ button {
     background-color: background: -moz-linear-gradient(-45deg, #6db3f2 0%, #54a3ee 27%, #3690f0 66%, #1e69de 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(-45deg, #6db3f2 0%,#54a3ee 27%,#3690f0 66%,#1e69de 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(135deg, #6db3f2 0%,#54a3ee 27%,#3690f0 66%,#1e69de 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
+    border-radius: .2em;
+    
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 1px;
