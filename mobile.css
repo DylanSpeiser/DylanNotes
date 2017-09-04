@@ -75,14 +75,14 @@ li {
 
 .right ul {
     margin: 0px;
-    float:right;
-    padding-right: 60px;
+    float:left;
+    padding-left: 60px;
     padding-top: .5%;
 }
 
 #logo {
-    margin-left: 2%;
-    float: left;
+    margin-right: 2%;
+    float: right;
     text-align: center;
     font-size: 36px;
     color:white;
