@@ -42,7 +42,7 @@ ul {
 li {
     display: inline;
     margin: 0px;
-    padding: 4%;
+    padding: 3%;
     font-size: 160%;
     z-index: 2;
     width: 18%;
@@ -76,7 +76,7 @@ li {
 }
 
 .right {
-    width: 70%;
+    width: 78%;
     float:right;
 }
 
