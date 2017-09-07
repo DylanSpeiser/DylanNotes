@@ -64,7 +64,7 @@ ul {
 /* Position the content inside the overlay */
 .overlay-content {
     position: relative;
-    top: 25%; /* 25% from the top */
+    top: 5%; /* 25% from the top */
     width: 100%; /* 100% width */
     text-align: center; /* Centered text/links */
     margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
@@ -75,7 +75,7 @@ ul {
     font-family: Futura, Helvetica, Arial;
     padding: 8px;
     text-decoration: none;
-    font-size: 136px;
+    font-size: 116px;
     padding-bottom: 50px;
     color: #ffffff;
     display: block; /* Display block instead of inline */
@@ -138,7 +138,7 @@ li {
 }
 
 .right {
-    width: 40%;
+    width: 30%;
 }
 
 .right ul {
@@ -149,7 +149,7 @@ li {
 }
 
 #logo {
-    margin-right: 22%;
+    margin-right: 17%;
     padding-top: 25px;
     float: right;
     text-align: center;
