@@ -32,7 +32,7 @@ background: linear-gradient(135deg, #6db3f2 0%,#54a3ee 27%,#3690f0 66%,#1e69de 1
 ul {
     padding: 0;
     text-align: center;
-    width: 74%;
+    width: 100%;
 }
 
 .mid {
@@ -42,7 +42,7 @@ ul {
 li {
     display: inline;
     margin: 0px;
-    padding: 0 5%;
+    padding: 4%;
     font-size: 160%;
     z-index: 2;
     width: 18%;
@@ -76,14 +76,14 @@ li {
 }
 
 .right {
-    width: 74.5%;
+    width: 70%;
     float:right;
 }
 
 .right ul {
     margin: 0px;
     float:right;
-    padding-right: 60px;
+    padding-right: 0px;
     padding-top: .5%;
 }
 
