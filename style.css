@@ -141,7 +141,7 @@ li {
 }
 
 #main p {
-    font-family: Futura;
+    font-family: Futura, Calibri, Helvetica, Arial;
     padding: 50px;
     color: white;
     text-align: center;
