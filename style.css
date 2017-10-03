@@ -297,6 +297,11 @@ button:hover {
     min-height: 400px;
 }
 
+.midText {
+    text-align: center;
+    width: 100%;
+}
+
 #Quiz1 {
     font-size: 500%;
 }
