@@ -27,6 +27,7 @@ header {
     background-color: background: -moz-linear-gradient(-45deg, #6db3f2 0%, #54a3ee 27%, #3690f0 66%, #1e69de 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(-45deg, #6db3f2 0%,#54a3ee 27%,#3690f0 66%,#1e69de 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(135deg, #6db3f2 0%,#54a3ee 27%,#3690f0 66%,#1e69de 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    z-index: 0;
 }
 
 ul {
@@ -76,7 +77,7 @@ li {
 }
 
 .right {
-    width: 78%;
+    width: 70%;
     float:right;
 }
 
@@ -109,6 +110,14 @@ li {
     height: 250px;
     width: 80%;
     padding-left: 10%;
+}
+
+#logoimg {
+    z-index: 2;
+    float: left;
+    margin-top: .3%;
+    margin-left: .7%;
+    padding: 0px;
 }
 
 .cf {
