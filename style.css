@@ -158,11 +158,10 @@ li {
 }
 
 .box {
-    width: 30%;
-    position: relative;
+    width: 46%;
     padding-left: 3.333333%;
     padding-top: 75px;
-    float: left;
+    float: center;
     margin: 0px 0;
     text-align: center;
     padding-bottom: 45px;
