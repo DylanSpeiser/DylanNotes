@@ -44,9 +44,10 @@ li {
     display: inline;
     margin: 0px;
     padding: 3%;
-    font-size: 160%;
+    font-size: 150%;
     z-index: 2;
     width: 18%;
+    font-style: oblique;
 }
 
 #title {
