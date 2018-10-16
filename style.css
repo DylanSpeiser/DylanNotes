@@ -135,9 +135,8 @@ li {
 }
 
 .box {
-    width: 100%;
+    width: 49%;
     padding-top: 75px;
-    float: center;
     margin: 0px 0;
     text-align: center;
     padding-bottom: 45px;
