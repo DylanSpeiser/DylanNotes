@@ -1,0 +1,96 @@
+nav {
+    font-size: 120%;
+}
+
+li {
+    margin-right: 6%;
+}
+
+body {
+    background-image: url(../images/bg.png);
+    background-size: 3000px;
+    background-repeat: no-repeat;
+    font-family: Futura, Calibri, Arial;
+}
+
+.display-1 {
+    margin-top: 5%;
+    color: #008cd6;
+    padding-bottom: 3%;
+}
+
+footer a{
+    color: #0babff;
+}
+
+footer {
+    padding-top: 6%;
+}
+
+h3 {
+    margin-top: 2%;
+    color: #064669;
+    font-family: Copperplate, Futura, Calibri, Arial;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#MidSection {
+    text-align: center;
+    padding-right: 6%;
+}
+
+.btn {
+  color: #ffffff;
+  background-color: #008cd6;
+  border-color: #007bff;
+  margin: 1%;
+  font-size: 240%;
+}
+
+.TwoPerLine {
+    width: 47.8%;
+}
+
+.OnePerLine {
+    width: 97.8%;
+}
+
+button:hover {
+  background-color: #1f80b4;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: 0.30s;
+}
+
+img {
+    transition: 0.25s;
+}
+
+#MidSection img {
+    width: 25%;
+    height: 25%;
+    padding-top: 3%;
+}
+
+.MidImg {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#Title {
+    padding-bottom: 0%;
+}
+
+#Talmud {
+    padding-left: 0%;
+    padding-right: 0%
+}
+
+.EaaterEgg {
+    background-image: url(https://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge/public/field/image/2016/06/xpbliss_7.jpg?itok=RDRuJObj);
+}

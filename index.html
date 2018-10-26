@@ -1,111 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Dylan Notes</title>
-        <meta charset="utf-8">
-        <meta name=”description” content=”A nice place to stay.”>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <link rel="stylesheet" type="text/css" media="screen and (min-width: 1600px)" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    
+      
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Dylan Notes</title>
+      
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+      
+  </head>
+  <body>
+    
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2f2f2f">
         
-        <link rel="stylesheet" type="text/css" media="screen and (max-width: 1599px) and (min-width: 999px)" href="styleSkinny.css">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/favicon.ico" width="60" height="60" alt="">
+          </a>
+          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <link rel="stylesheet" type="text/css" media="screen and (max-width: 1000px)" href="mobile.css">
-        
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
-
-        <script src="js/html5shiv.js"></script>
-
-    </head>
-
-    <body>
-        <img class="desktop" src="favicon.ico" width="64" height="64" id="logoimg">
-        <header>
-
-            <div id="logo">
-                <a href="index.html">
-                    <p id="title" >Dylan Notes 2</p>
-                </a>
-            </div>
-
-            <div class="right">
-                
-                 
-                <ul class="desktop">
-                    <li><a class="headerLi" href="index.html">Home</a></li>
-                    <li><a class="headerLi" href="Current/Science.html">Science</a></li>
-                    <li><a class="headerLi" href="Quizlets.html">Quizlets</a></li>
-                    <li><a class="headerLi" href="Current/Talmud.html">Talmud</a></li>
-                    <li><a class="headerLi" href="Current/Nach.html">Nach</a></li>
-                    <li><a class="headerLi" href="Current/History.html">History</a></li>
-                    <li><a class="headerLi" href="Current/Chumash.html">Chumash</a></li>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="Current/Chumash.html">Chumash</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="Current/History.html">History</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="Current/Nach.html">Nach</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="Current/Science.html">Science</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="Current/Talmud.html">Talmud</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="AssortedPages/Quizlet.html">Quizlet</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="AssortedPages/Review.html">Review</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="AssortedPages/Disclaimer.html">Disclaimer</a>
+                </li>
                 </ul>
-                
-                <div class="mobile">
-                    
-                    <div id="myNav" class="overlay">
-
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-                    <div class="overlay-content">
-                        <a href="index.html">Home</a>
-                        <a href="Current/Science.html">Science</a>
-                        <a href="Quizlets.html">Quizlets</a>
-                        <a href="Current/Talmud.html">Talmud</a>
-                        <a href="Current/Nach.html">Nach</a>
-                        <a href="Current/History.html">History</a>
-                        <a href="Current/Chumash.html">Chumash</a>
-                </div>
-                </div>
-                    
-                    <li><a onclick="openNav()"><img id= "menuImg" src="images/Menu.png"></a></li>
-                </div>
-                
-                <script>
-                    function openNav() {
-                        document.getElementById("myNav").style.width = "100%";
-                    }
-
-                    function closeNav() {
-                        document.getElementById("myNav").style.width = "0%";
-                    }
-                </script>
-                
             </div>
+      </nav>
+      
+      <h1 class="display-1 text-center" id="Title">Welcome to Dylan Notes!</h1>
+      
+      <h3 class="text-center">Why not stay a while?</h3>
+      
+      <div id="MidSection">
+        <a href="Current/Nach.html" class="MidImg"><img src="images/Nach.png"></a>
+        <a href="Current/Chumash.html" class="MidImg"><img src="images/Chumash.png"></a>
+        <a href="Current/Science.html" class="MidImg"><img src="images/Science.png"></a>
+        <a href="Current/History.html" class="MidImg"><img src="images/History.png"></a>
+        <a href="Current/Talmud.html" class="MidImg" id="Talmud"><img src="images/Talmud.png"></a>
+          
+        <a href="9thGrade.html" style="margin-left: 10%"><img src="images/9th.png" width="80%" height="80%"></a>
+      </div>
+      
+      <footer>
+        <a href="AssortedPages/EasterEgg.html"><p class="text-center"><small>Dylan Notes Version 5.0.0</small></p></a>
+      </footer>
 
-        </header>
-        
-        <div id="main">
-
-            <p>Welcome to Dylan's Notes!</p>
-
-        </div>
-
-        <div id="images">
-
-            <div class="box">
-                <a class="boxImg" href="UpcomingTests.html">
-                    <img src="images/NextTest.png">
-                    <!-- Insert Test Name Below: -->
-                    <p id=p2></p>
-                </a>
-            </div>
-            
-            <div class="box">
-                <a class="boxImg" href="9thGrade.html">
-                    <img src="images/9th.png">
-                    <p id=p2></p>
-                </a>
-            </div>
-        </div>
-
-        <footer>
-            
-            <a href="Disclaimer.html"><p>Disclaimer</p></a>
-            <p id="version">© 2018 Dylan Speiser</p>
-            <a href="https://corgiorgy.com"><p id="version">Muff is Love</p></a>
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><p id="version">Muff is Life</p></a>
-            <p id="version" class="desktop">Dylan Notes Version 4.5.8</p>
-            <p id="version" class="mobile">Mobile Version 4.5.8</p>
-        </footer>
-    </body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
