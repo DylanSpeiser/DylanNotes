@@ -61,14 +61,35 @@ a:hover {
   font-size: 240%;
 }
 
+.OnePerLine {
+    width: 97%;
+	padding-top: 6%;
+	padding-bottom: 6%;
+	font-size: 300%;
+}
+
 .OneTwoPerLine {
-    width: 47.6%;
+	width: 97%;
+}
+
+li {
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-left: 0%;
+        margin-right: 3%;
+        font-size: 100%;
+        
+        transition: 0.3s;
 }
 
 @media (min-width: 1501px){
     .OneTwoPerLine {
-        width: 47.6%;
+        width: 47.6%!important;
         font-size: 240%;
+	}
+	
+	.display-1 {
+		font-size: 500%;
 	}
     
     li {
@@ -97,7 +118,7 @@ a:hover {
 
 @media (min-width:1243px, max-width: 1300px) {
 	.OneTwoPerLine {
-		width: 97%;
+		width: 97%!important;
         font-size: 240%;
 	}
     
@@ -112,8 +133,45 @@ a:hover {
     }
 }
 
-@media (max-width:1242px) {
+@media (min-width:990px, max-width:1242px) {
     .MidImg {
+        display: none;
+    }
+    
+    .display-1 {
+        font-size: 400%;
+		margin-top: 15%;
+		margin-bottom: 10%;
+    }
+	
+	h3 {
+		padding-top: 5%;
+		font-size: 150%;
+		padding-bottom: 25%;
+	}
+	
+	.OneTwoPerLine {
+		width: 97%!important;
+        font-size: 130%;
+	}
+	
+	footer {
+		margin-top: 30%;
+	}
+	
+	li {
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-left: 0%;
+        margin-right: 2.7%;
+        font-size: 100%;
+        
+        transition: 0.3s;
+    }
+}
+
+@media (max-width:989px) {
+	.MidImg {
         display: none;
     }
     
@@ -130,7 +188,7 @@ a:hover {
 	}
 	
 	.OneTwoPerLine {
-		width: 97%;
+		width: 97%!important;
         font-size: 130%;
 	}
 	
@@ -138,6 +196,15 @@ a:hover {
 		margin-top: 30%;
 	}
 	
+	li {
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-left: 0%;
+        margin-right: 2.7%;
+        font-size: 100%;
+        
+        transition: 0.3s;
+    }
 }
 
 button:hover {
