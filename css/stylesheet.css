@@ -50,12 +50,21 @@ a:hover {
   font-size: 240%;
 }
 
-.TwoPerLine {
-    width: 45%;
+.OneTwoPerLine {
+    width: 47.6%;
 }
 
-.OnePerLine {
-    width: 97%;
+@media (min-width: 768px){
+    .OneTwoPerLine {
+        width: 47.6%;
+		font-size: 170%;
+	}
+}
+
+@media (max-width: 767px) {
+	.OneTwoPerLine {
+		width: 97%;
+	}
 }
 
 button:hover {
