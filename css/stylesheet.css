@@ -84,7 +84,7 @@ a:hover {
 }
 
 
-@media (min-width:1125, max-width: 1300px) {
+@media (min-width:1151, max-width: 1300px) {
 	.OneTwoPerLine {
 		width: 97%;
         font-size: 240%;
@@ -101,7 +101,7 @@ a:hover {
     }
 }
 
-@media (max-width:1125px) {
+@media (max-width:1150px) {
     .MidImg {
         display: none;
     }
