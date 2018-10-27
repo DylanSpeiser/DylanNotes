@@ -62,10 +62,10 @@ a:hover {
 }
 
 .OnePerLine {
-    width: 97%;
-	padding-top: 6%;
-	padding-bottom: 6%;
-	font-size: 300%;
+    width: 97%!important;
+	padding-top: 6%!important;
+	padding-bottom: 6%!important;
+	font-size: 300%!important;
 }
 
 .OneTwoPerLine {
