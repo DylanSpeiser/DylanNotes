@@ -54,17 +54,90 @@ a:hover {
     width: 47.6%;
 }
 
-@media (min-width: 768px){
+@media (min-width: 1501px){
     .OneTwoPerLine {
         width: 47.6%;
-		font-size: 170%;
+        font-size: 240%;
 	}
+    
+    li {
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-left: 0%;
+        margin-right: 6%;
+        font-size: 120%;
+        
+        transition: 0.3s;
+    }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 1301, max-width:1500px) {
+    li {
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-left: 0%;
+        margin-right: 3%;
+        font-size: 100%;
+        
+        transition: 0.3s;
+    }
+}
+
+@media (min-width: 1301px, max-width:1300px) {
+    li {
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-left: 0%;
+        margin-right: 2.7%;
+        font-size: 100%;
+        
+        transition: 0.3s;
+    }
+}
+
+@media (min-width:991px, max-width: 1300px) {
 	.OneTwoPerLine {
 		width: 97%;
+        font-size: 240%;
 	}
+    
+    li {
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-left: 0%;
+        margin-right: 2.7%;
+        font-size: 100%;
+        
+        transition: 0.3s;
+    }
+}
+
+@media (max-width:990px) {
+    .MidImg {
+        display: none;
+    }
+    
+    .display-1 {
+        font-size: 300%;
+		margin-top: 15%;
+		margin-bottom: 10%;
+    }
+	
+	h3 {
+		padding-top: 5%;
+		font-size: 150%;
+		padding-bottom: 25%;
+	}
+	
+	.OneTwoPerLine {
+		width: 97%;
+        font-size: 130%;
+	}
+	
+	footer {
+		margin-top: 30%;
+	}
+	
 }
 
 button:hover {
@@ -73,6 +146,15 @@ button:hover {
 
 img:hover {
     transform: scale(1.1);
+    transition: 0.30s;
+}
+
+.nav-link:hover {
+    color: #4c616f!important;
+    transition: 0.30s;
+}
+
+.nav-link {
     transition: 0.30s;
 }
 
