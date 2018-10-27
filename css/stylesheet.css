@@ -6,11 +6,21 @@ li {
     margin-right: 6%;
 }
 
+@font-face {
+    font-family: FuturaFont;
+    src: url("Futura.ttc");
+}
+
+@font-face {
+    font-family: CopperplateFont;
+    src: url("Copperplate.ttc");
+}
+
 body {
     background-image: url(../images/bg.png);
     background-size: 3000px;
     background-repeat: no-repeat;
-    font-family: Futura, Calibri, Arial;
+    font-family: FuturaFont, Calibri, Arial;
 }
 
 .display-1 {
@@ -31,7 +41,7 @@ footer {
 h3 {
     margin-top: 2%;
     color: #064669;
-    font-family: Copperplate, Futura, Calibri, Arial;
+    font-family: Copperplate, FuturaFont, Calibri, Arial;
 }
 
 a:hover {
