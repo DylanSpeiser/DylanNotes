@@ -83,19 +83,8 @@ a:hover {
     }
 }
 
-@media (min-width: 1301px, max-width:1300px) {
-    li {
-        padding-left: 0%;
-        padding-right: 0%;
-        margin-left: 0%;
-        margin-right: 2.7%;
-        font-size: 100%;
-        
-        transition: 0.3s;
-    }
-}
 
-@media (min-width:991px, max-width: 1300px) {
+@media (min-width:1125, max-width: 1300px) {
 	.OneTwoPerLine {
 		width: 97%;
         font-size: 240%;
@@ -112,7 +101,7 @@ a:hover {
     }
 }
 
-@media (max-width:990px) {
+@media (max-width:1125px) {
     .MidImg {
         display: none;
     }
