@@ -50,7 +50,7 @@ a:hover {
 
 #MidSection {
     text-align: center;
-    padding-right: 6%;
+    padding-right: 1%;
 }
 
 .btn {
@@ -236,17 +236,12 @@ img {
 }
 
 .MidImg {
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 4%;
+    padding-left: 4%;
 }
 
 #Title {
     padding-bottom: 0%;
-}
-
-#Talmud {
-    padding-left: 0%;
-    padding-right: 0%
 }
 
 .EaaterEgg {
