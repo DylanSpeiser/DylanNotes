@@ -31,7 +31,7 @@ body {
 }
 
 footer a{
-    color: #0babff;
+    color: #94a0a7;
 }
 
 footer {
@@ -158,6 +158,10 @@ li {
 	footer {
 		margin-top: 30%;
 	}
+    
+    footer a:hover {
+        color: #94a0a7!important;
+    }
 	
 	li {
         padding-left: 0%;
