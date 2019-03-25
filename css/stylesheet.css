@@ -19,7 +19,7 @@ li {
 body {
     background-image: url(../images/bg.png);
     background-size: 3000px;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     font-family: FuturaFont, Calibri, Arial;
 }
 
@@ -135,8 +135,16 @@ li {
 
 @media (min-width:990px, max-width:1242px) {
     .MidImg {
-        display: none;
+        width: 45%;
+        padding: none;
     }
+    
+    #MidSection img {
+        width: 45%;
+        height: auto;
+        padding-top: 0%;
+    }
+    
     
     .display-1 {
         font-size: 400%;
@@ -175,8 +183,15 @@ li {
 }
 
 @media (max-width:989px) {
-	.MidImg {
-        display: none;
+    .MidImg {
+        width: 45%;
+        padding: none;
+    }
+    
+    #MidSection img {
+        width: 45%;
+        height: auto;
+        padding-top: 0%;
     }
     
     .display-1 {
