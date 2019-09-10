@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'determination_sansregular';
+    src: url('../Fonts/Determination Sans/dtm-sans-webfont.woff2') format('woff2'),
+         url('../Fonts/Determination Sans/dtm-sans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.detris:hover {
+    color:yellow;
+}
+
+.detris {
+    color:white;
+}
+
+.detrisBody {
+    background-image: url('https://cdn.suwalls.com/wallpapers/games/colorful-tetris-49882-1920x1080.jpg');
+    background-position: 0px 40px;
+    background-size: cover;
+    background-color: #000000;
+}
+
 nav {
     font-size: 120%;
 }
