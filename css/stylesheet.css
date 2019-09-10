@@ -13,12 +13,11 @@
 
 .detris {
     color:white;
+    padding-bottom: 10px;
 }
 
 .detrisBody {
     background-image: url('https://cdn.suwalls.com/wallpapers/games/colorful-tetris-49882-1920x1080.jpg');
-    background-position: 0px 40px;
-    background-size: cover;
     background-color: #000000;
 }
 
