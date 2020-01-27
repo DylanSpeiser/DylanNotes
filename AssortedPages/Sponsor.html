@@ -11,13 +11,7 @@
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128244742-1"></script>
-      <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-128244742-1');
-      </script>
+      <script src="../js/include.js"></script>
       
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -28,47 +22,16 @@
   </head>
   <body>
     
-      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2f2f2f">
-        
-          <a class="navbar-brand" href="../index.html">
-            <img src="../images/favicon.ico" width="60" height="60" alt="">
-          </a>
-          
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="../Current/Chumash.html">Chumash</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="../Current/History.html">History</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="../Current/Nach.html">Nach</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="../Current/Science.html">Science</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="../Current/Talmud.html">Talmud</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="Quizlet.html">Quizlet</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="Disclaimer.html">Disclaimer</a>
-                </li>
-                </ul>
-            </div>
-      </nav>
+      <div w3-include-html="../AssortedPages/Bar.html"></div>
       
       <h1 class="display-1 text-center">Sponsor A Document</h1>
       
       <h5 class="text-center">If you wish to sponsor a document of notes, or a page of notes, you can for as little as $2! Just send me an email at the address below to get started!</h5>
       <a href="mailto:dylan@dylannotes.com"><h5 class="text-center">dylan@dylannotes.com</h5></a>
+      
+      <script>
+          includeHTML();
+      </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
