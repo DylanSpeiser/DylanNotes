@@ -73,7 +73,7 @@ a:hover {
 
 #MidSection {
     text-align: center;
-    padding-right: 1%;
+    width: 100%;
 }
 
 .btn {
@@ -119,7 +119,7 @@ li {
         padding-left: 0%;
         padding-right: 0%;
         margin-left: 0%;
-        margin-right: 6%;
+        margin-right: 10%;
         font-size: 120%;
         
         transition: 0.3s;
@@ -146,10 +146,10 @@ li {
 	}
     
     li {
-        padding-left: 0%;
-        padding-right: 0%;
-        margin-left: 0%;
-        margin-right: 2.7%;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
         font-size: 100%;
         
         transition: 0.3s;
@@ -159,7 +159,7 @@ li {
 @media (min-width:990px, max-width:1242px) {
     .MidImg {
         width: 45%;
-        padding: none;
+        padding: 5%;
     }
     
     #MidSection img {
@@ -208,7 +208,7 @@ li {
 @media (max-width:989px) {
     .MidImg {
         width: 45%;
-        padding: none;
+        padding: 5%;
     }
     
     #MidSection img {
