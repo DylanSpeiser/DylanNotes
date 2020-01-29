@@ -73,7 +73,9 @@ a:hover {
 
 #MidSection {
     text-align: center;
-    width: 100%;
+    width: 95%;
+    padding-left: 10%;
+    padding-top: 5%;
 }
 
 .btn {
@@ -119,7 +121,7 @@ li {
         padding-left: 0%;
         padding-right: 0%;
         margin-left: 0%;
-        margin-right: 10%;
+        margin-right: 6.5%;
         font-size: 120%;
         
         transition: 0.3s;
@@ -278,8 +280,7 @@ img {
 }
 
 .MidImg {
-    padding-right: 4%;
-    padding-left: 4%;
+    padding-right: 0%;
 }
 
 #Title {
