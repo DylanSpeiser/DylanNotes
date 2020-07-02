@@ -67,6 +67,11 @@ h3 {
     font-family: Copperplate, FuturaFont, Calibri, Arial;
 }
 
+h2 {
+    color: #36344b;
+    margin: 0%
+}
+
 a:hover {
     text-decoration: none;
 }
@@ -228,7 +233,7 @@ li {
 	h3 {
 		padding-top: 5%;
 		font-size: 150%;
-		padding-bottom: 25%;
+		padding-bottom: 6%;
 	}
 	
 	.OneTwoPerLine {
