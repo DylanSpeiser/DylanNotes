@@ -1,2 +1,8 @@
-js/* linguist-vendored
-js/include.js linguist-detectable
+js/bootstrap.bundle.js linguist-vendored
+js/bootstrap.bundle.js.map linguist-vendored
+js/bootstrap.bundle.min.js linguist-vendored
+js/bootstrap.bundle.min.js.map linguist-vendored
+js/bootstrap.js linguist-vendored
+js/bootstrap.js.map linguist-vendored
+js/bootstrap.min.js linguist-vendored
+js/bootstrap.min.js.map linguist-vendored
