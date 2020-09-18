@@ -297,6 +297,7 @@ img {
 #Museum {
     background-image: url(../images/Museum/background.png);
     background-repeat: repeat;
+    background-size: 2000px;
 }
 
 #Museum a {
