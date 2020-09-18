@@ -51,10 +51,11 @@ body {
     color: #008cd6;
     padding-bottom: 3%;
     font-size: 500%;
+    text-shadow: 1px 2px 5px #000000;
 }
 
 footer a{
-    color: #94a0a7;
+    color: #37435a;
 }
 
 footer {
@@ -65,6 +66,7 @@ h3 {
     margin-top: 2%;
     color: #064669;
     font-family: Copperplate, FuturaFont, Calibri, Arial;
+    text-shadow: 1px 2px 5px #ffffff;
 }
 
 h2 {
@@ -292,6 +294,243 @@ img {
     padding-bottom: 0%;
 }
 
-.EaaterEgg {
-    background-image: url(https://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge/public/field/image/2016/06/xpbliss_7.jpg?itok=RDRuJObj);
+#Museum {
+    background-image: url(../images/Museum/background.png);
+    background-repeat: repeat;
+}
+
+#Museum a {
+    color: white;
+}
+
+#Museum a:hover {
+    color: white;
+}
+
+#Museum {
+    background-position: center;
+}
+
+#Museum h1 {
+    font-family: Georgia, Times, Futura, Calibri, Arial;
+    color: aliceblue;
+}
+
+#Museum .exhibit {
+    margin-left: 10%;
+    width: 80%;
+    background: #2f2f2f;
+    margin-bottom: 4%;
+    box-shadow: 0px 1px 8px #000000;
+}
+
+#Museum .exhibit .upper {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0%;
+    margin-bottom: 0;
+    background: rgb(139, 139, 139);
+}
+
+#Museum .exhibit .upper .version{
+    font-size: 300%;
+    color:aliceblue;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#Museum .exhibit .upper .date{
+    font-size: 75%;
+    color:aliceblue;
+    padding-bottom: 0.4%;
+}
+
+#Museum .exhibit .lower {
+    display: inline-block;
+}
+
+#Museum .exhibit .right {
+    width: 34.8%;
+    display: inline-block;
+}
+
+#Museum .exhibit .lower img {
+    display: inline-block;
+    width: 60%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    vertical-align: top;
+    border: 2px solid aliceblue;
+}
+
+#Museum .exhibit .lower p {
+    display: inline-block;
+    color:aliceblue;
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 120%;
+    background: rgb(139, 139, 139);
+}
+
+#Museum .exhibit .right img {
+    width: 20%;
+    border: none;
+}
+
+#Museum .exhibit img:hover {
+    transform: none;
+}
+
+.button1 {
+    font-family: impact, calibri, helvetica, arial;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    overflow: hidden;
+    background-color: cornflowerblue;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 31px;
+    padding-right: 25px;
+    margin: 15px;
+}
+
+.button1:hover {
+    font-family: impact, calibri, helvetica, arial;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    overflow: hidden;
+    background-color: cornflowerblue;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 31px;
+    padding-right: 25px;
+    margin: 15px;
+}
+
+.button2 {
+    font-family: impact, calibri, helvetica, arial;
+    text-align: center;
+    font-size: 300%;
+    color: white;
+    overflow: hidden;
+    background-color: cornflowerblue;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 31px;
+    padding-right: 25px;
+    margin: 15px;
+}
+
+.button2:hover {
+    background-color: aqua;
+    background-color: aqua;
+    transition-duration: 0.7s;
+}
+
+.button3 {
+    font-family: calibri, helvetica, arial;
+    text-align: center;
+    font-size: 300%;
+    color: white;
+    overflow: hidden;
+    background-color: cornflowerblue;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 31px;
+    padding-right: 25px;
+    margin: 15px;
+}
+
+.button3:hover {
+    background-color: aqua;
+    background-color: aqua;
+    transition-duration: 0.7s;
+}
+
+.button4 {
+    font-family: calibri, helvetica, arial;
+    
+    text-align: center;
+    font-size: 300%;
+    color: white;
+    overflow: hidden;
+    background-color: background: -moz-linear-gradient(-45deg, #6db3f2 0%, #54a3ee 27%, #3690f0 66%, #1e69de 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #6db3f2 0%,#54a3ee 27%,#3690f0 66%,#1e69de 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #6db3f2 0%,#54a3ee 27%,#3690f0 66%,#1e69de 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 1px;
+    padding-right: 25px;
+    margin: 25px;
+}
+
+.button4:hover {
+    background-color: #00a7ff;
+    transition-duration: 0.3s;
+    transform: scale(1.1);
+}
+
+.button5 {
+    font-family: calibri, helvetica, arial;
+    
+    text-align: center;
+    font-size: 300%;
+    color: white;
+    overflow: hidden;
+    background-color: background: -moz-linear-gradient(-45deg, #6db3f2 0%, #54a3ee 27%, #3690f0 66%, #1e69de 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #6db3f2 0%,#54a3ee 27%,#3690f0 66%,#1e69de 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #6db3f2 0%,#54a3ee 27%,#3690f0 66%,#1e69de 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 1px;
+    padding-right: 25px;
+    margin: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.button5:hover {
+    background-color: #00a7ff;
+    transition-duration: 0.3s;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.button6 {
+    color: #ffffff;
+  background-color: #008cd6;
+  border-color: #007bff;
+  margin: 1%;
+  font-size: 240%;
+}
+
+.button6:hover {
+    background-color: #1f80b4;
+}
+
+.button7 {
+    color: #ffffff;
+  background-color: #008cd6;
+  border-color: #007bff;
+  margin: 1%;
+  font-size: 240%;
+}
+
+.button7:hover {
+    background-color: #1f80b4;
 }
