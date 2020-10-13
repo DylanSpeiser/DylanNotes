@@ -7,26 +7,17 @@
 
 }
 
-.detris:hover {
-    color:yellow;
-}
-
-.detris {
-    color:white;
-    padding-bottom: 10px;
-}
-
-.detrisBody {
-    background-image: url('https://cdn.suwalls.com/wallpapers/games/colorful-tetris-49882-1920x1080.jpg');
-    background-color: #000000;
-}
-
 nav {
     font-size: 120%;
 }
 
 li {
     margin-right: 6%;
+}
+
+h5.text-center {
+    width: 50%;
+    margin-left: 25%;
 }
 
 @font-face {
