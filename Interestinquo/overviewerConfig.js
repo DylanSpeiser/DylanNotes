@@ -23,12 +23,11 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "Interestinquo - overworld",
-        "Interestinquo - nether"
+        "world"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1607760244",
+        "cacheTag": "1607752095",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -42,41 +41,14 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "Overworld Northeast",
+            "name": "Overviewer Render (lighting)",
             "zoomLevels": 9,
             "defaultZoom": 1,
             "maxZoom": 9,
-            "path": "overworldNE",
+            "path": "world-lighting",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "Interestinquo - overworld",
-            "last_rendertime": 1607751049,
-            "imgextension": "png",
-            "isOverlay": false,
-            "poititle": "Markers",
-            "showlocationmarker": true,
-            "center": [
-                256,
-                96,
-                -144
-            ],
-            "minZoom": 0,
-            "spawn": [
-                256,
-                96,
-                -144
-            ],
-            "north_direction": 1
-        },
-        {
-            "name": "Overworld Northwest",
-            "zoomLevels": 9,
-            "defaultZoom": 1,
-            "maxZoom": 9,
-            "path": "overworldNW",
-            "base": "",
-            "bgcolor": "#1a1a1a",
-            "world": "Interestinquo - overworld",
+            "world": "world",
             "last_rendertime": 1607751049,
             "imgextension": "png",
             "isOverlay": false,
@@ -94,142 +66,6 @@ var overviewerConfig = {
                 -144
             ],
             "north_direction": 0
-        },
-        {
-            "name": "Overworld Southeast",
-            "zoomLevels": 9,
-            "defaultZoom": 1,
-            "maxZoom": 9,
-            "path": "overworldSE",
-            "base": "",
-            "bgcolor": "#1a1a1a",
-            "world": "Interestinquo - overworld",
-            "last_rendertime": 1607751049,
-            "imgextension": "png",
-            "isOverlay": false,
-            "poititle": "Markers",
-            "showlocationmarker": true,
-            "center": [
-                256,
-                96,
-                -144
-            ],
-            "minZoom": 0,
-            "spawn": [
-                256,
-                96,
-                -144
-            ],
-            "north_direction": 2
-        },
-        {
-            "name": "Overworld Southwest",
-            "zoomLevels": 9,
-            "defaultZoom": 1,
-            "maxZoom": 9,
-            "path": "overworldSW",
-            "base": "",
-            "bgcolor": "#1a1a1a",
-            "world": "Interestinquo - overworld",
-            "last_rendertime": 1607751049,
-            "imgextension": "png",
-            "isOverlay": false,
-            "poititle": "Markers",
-            "showlocationmarker": true,
-            "center": [
-                256,
-                96,
-                -144
-            ],
-            "minZoom": 0,
-            "spawn": [
-                256,
-                96,
-                -144
-            ],
-            "north_direction": 3
-        },
-        {
-            "name": "Nether (Northeast)",
-            "zoomLevels": 8,
-            "defaultZoom": 1,
-            "maxZoom": 8,
-            "path": "NetherNE",
-            "base": "",
-            "bgcolor": "#1a1a1a",
-            "world": "Interestinquo - nether",
-            "last_rendertime": 1607748857,
-            "imgextension": "png",
-            "isOverlay": false,
-            "poititle": "Markers",
-            "showlocationmarker": true,
-            "center": [
-                256,
-                96,
-                -144
-            ],
-            "minZoom": 0,
-            "spawn": false,
-            "north_direction": 0
-        },
-        {
-            "name": "Caves",
-            "zoomLevels": 9,
-            "defaultZoom": 1,
-            "maxZoom": 9,
-            "path": "caves",
-            "base": "",
-            "bgcolor": "#1a1a1a",
-            "world": "Interestinquo - overworld",
-            "last_rendertime": 1607751049,
-            "imgextension": "png",
-            "isOverlay": false,
-            "poititle": "Markers",
-            "showlocationmarker": true,
-            "center": [
-                256,
-                96,
-                -144
-            ],
-            "minZoom": 0,
-            "spawn": [
-                256,
-                96,
-                -144
-            ],
-            "north_direction": 1
-        },
-        {
-            "name": "Biomes",
-            "zoomLevels": 9,
-            "defaultZoom": 1,
-            "maxZoom": 9,
-            "path": "Biomes",
-            "base": "",
-            "bgcolor": "#1a1a1a",
-            "world": "Interestinquo - overworld",
-            "last_rendertime": 1607751049,
-            "imgextension": "png",
-            "isOverlay": [
-                "overworldNE"
-            ],
-            "poititle": "Markers",
-            "showlocationmarker": true,
-            "center": [
-                256,
-                96,
-                -144
-            ],
-            "minZoom": 0,
-            "tilesets": [
-                "overworldNE"
-            ],
-            "spawn": [
-                256,
-                96,
-                -144
-            ],
-            "north_direction": 1
         }
     ]
 };
